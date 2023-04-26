@@ -3,7 +3,7 @@
 * {
     margin: 0;
     padding: 0;
-    background-color: #BFA893;
+    background-color:#BFA893 ;
     list-style: none;
     text-decoration: none;
 }
@@ -46,7 +46,7 @@ li:hover {
 }
 
 #banner {
-    background-image: url('./Principal.jpg');
+    background-image: url('./media/Principal.jpg');
     background-position: 0% 50%;
     background-size: cover;
     width: 100%;
@@ -57,30 +57,30 @@ li:hover {
     background-color: #A6907C;
     width: 100%;
     height: 575px;
-    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    border-style: solid;
+    border-color: black;
+    border-width: 20px;
 }
 
 .content {
     width: 100%;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
+    
     
 }
 
 #foto-lele {
-    width: 50%;
-    justify-content: center;
+    width: 500px;
+    object-position: 100% 100%;
+    
 }
 
-#samenvattingovermij{
+#samenvattingovermij {
     width: 50%;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    margin-left: 0;
 
 }
+
 .tekst {
     color: #fff;
     font-size: 19px;
