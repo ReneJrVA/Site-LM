@@ -1,11 +1,12 @@
 @import url('https://fonts.googleapis.com/css2?family=Fraunces:wght@100&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Castoro+Titling&family=Fraunces:wght@100&display=swap');
 
 * {
     margin: 0;
     padding: 0;
-    background-color:#BFA893 ;
     list-style: none;
     text-decoration: none;
+    background-color: #BFA893;
 }
 
 header {
@@ -17,21 +18,23 @@ header {
 
 nav {
     width: 60%;
+    
 }
 
 ul {
     display: flex;
+    margin-top: 80px;
     width: 100%;
     justify-content: space-between;
 }
 
 li {
     list-style: none;
-    color: aliceblue;
+    color: #fff;
     cursor: pointer;
     font-size: 19px;
     transition: .5s;
-    font-family: 'Fraunces', serif;
+    font-family: 'Castoro Titling', serif;
 }
 
 li:hover {
@@ -39,52 +42,112 @@ li:hover {
 }
 
 #logo {
-    margin-top: 100px;
-    width: 300px;
+    width: 350px;
     height: auto;
-    background: none;
+    margin-top: -25px;
+    margin-left: 20px;
+    background: transparent;
 }
 
 #banner {
     background-image: url('./media/Principal.jpg');
     background-position: 0% 50%;
     background-size: cover;
+    margin-top: 50px;
     width: 100%;
-    height: 800px;
+    height: 900px;
 }
 
 #overMij-container {
-    background-color: #A6907C;
     width: 100%;
-    height: 575px;
+    height: 450px;
     display: flex;
-    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: #ece5df;
+    /*border-color: #000000;
     border-style: solid;
-    border-color: black;
-    border-width: 20px;
+    border-width: 1px;*/
 }
 
-.content {
-    width: 100%;
-    
-    
+.fotoaboutme {
+    width: 500px;
+    background-color: #ece5df;
 }
 
 #foto-lele {
-    width: 500px;
-    object-position: 100% 100%;
-    
+    margin-top: 0px;
+    margin-left: 250px;
+    width: 100%;
+    height: 100%;
+    background-color: #ece5df;
+}
+
+.titleAboutMe{
+    color: #000000;
+    font-size: 30px;
+    font-family: 'Castoro Titling', sans-serif;
+    font-weight:400;
+    margin-bottom: 20px;
+    background-color: #ece5df;
 }
 
 #samenvattingovermij {
-    width: 50%;
-
+    width: 100%;
+    height: 100px;
+    margin-top: -100px;
+    margin-left: 270px;
+    background-color: #ece5df;
 }
 
 .tekst {
-    color: #fff;
+    color: #000000;
     font-size: 19px;
     font-family: 'Fraunces', sans-serif;
-    width: 70%;
-    margin-left: 0;
+    width: 80%;
+    height: 100px;
+    background-color: #ece5df;
 }
+
+#fotoshoot-card-container{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+}
+
+.options-card-content{
+    width: 90%;
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    row-gap: 5px;
+    column-gap: 40px;
+}
+
+.foto-motherhood{ /* foto: w: 264 h: 499, blok w: 332 h:499 */
+    width: auto;
+    height: auto;
+    margin-bottom: 50px;
+}
+
+.foto-family{
+    width: auto;
+    height: auto;
+    margin-bottom: 50px;
+}
+
+.foto-wedding{
+    width: auto;
+    height: auto;
+    margin-bottom: 50px;
+}
+
+.foto-portrait{
+    width: auto;
+    height: auto;
+    margin-bottom: 50px;
+}
+
+
+
+
