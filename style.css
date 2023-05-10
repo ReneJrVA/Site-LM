@@ -18,7 +18,7 @@ header {
 
 nav {
     width: 60%;
-    
+
 }
 
 ul {
@@ -83,11 +83,11 @@ li:hover {
     background-color: #ece5df;
 }
 
-.titleAboutMe{
+.titleAboutMe {
     color: #000000;
     font-size: 30px;
     font-family: 'Castoro Titling', sans-serif;
-    font-weight:400;
+    font-weight: 400;
     margin-bottom: 20px;
     background-color: #ece5df;
 }
@@ -109,45 +109,79 @@ li:hover {
     background-color: #ece5df;
 }
 
-#fotoshoot-card-container{
+#fotoshoot-card-container {
     width: 100%;
     display: flex;
     justify-content: center;
     margin-top: 50px;
 }
 
-.options-card-content{
+.options-card-content {
     width: 90%;
     display: grid;
-    grid-template-columns: repeat(4,1fr);
+    grid-template-columns: repeat(4, 1fr);
     row-gap: 5px;
     column-gap: 40px;
 }
 
-.foto-motherhood{ /* foto: w: 264 h: 499, blok w: 332 h:499 */
+.foto-motherhood {
+    /* foto: w: 264 h: 499, blok w: 332 h:499 */
     width: auto;
     height: auto;
     margin-bottom: 50px;
 }
 
-.foto-family{
+.foto-family {
     width: auto;
     height: auto;
     margin-bottom: 50px;
 }
 
-.foto-wedding{
+.foto-wedding {
     width: auto;
     height: auto;
     margin-bottom: 50px;
 }
 
-.foto-portrait{
+.foto-portrait {
     width: auto;
     height: auto;
     margin-bottom: 50px;
 }
 
+#titleOptions {
+    width: 90%;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    justify-content: center;
+    row-gap: 5px;
+    column-gap: 40px;
+    margin-left: 140px;
+}
 
+.title-motherhood {
+    color: #000000;
+    font-size: 30px;
+    font-family: 'Castoro Titling', sans-serif;
+}
 
+.title-family {
+    color: #000000;
+    font-size: 30px;
+    font-family: 'Castoro Titling', sans-serif;
+    margin-left: 60px;
+}
 
+.title-wedding {
+    color: #000000;
+    font-size: 30px;
+    font-family: 'Castoro Titling', sans-serif;
+    margin-left: 50px;
+}
+
+.title-portrait {
+    color: #000000;
+    font-size: 30px;
+    font-family: 'Castoro Titling', sans-serif;
+    margin-left: 50px;
+}
