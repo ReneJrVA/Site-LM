@@ -47,7 +47,7 @@ li:hover {
     margin-top: -25px;
     margin-left: 20px;
     background: transparent;
-    
+
 }
 
 #banner {
@@ -158,6 +158,7 @@ li:hover {
     row-gap: 5px;
     column-gap: 40px;
     margin-left: 140px;
+    margin-bottom: 100px;
 }
 
 .title-motherhood {
@@ -185,4 +186,21 @@ li:hover {
     font-size: 30px;
     font-family: 'Castoro Titling', sans-serif;
     margin-left: 50px;
+}
+
+footer{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.footer-logo{
+    font-family: 'Castoro Titling', sans-serif;
+    font-size: 1.5rem;
+    font-weight: 500;
+}
+
+.copyrigth {
+    font-weight: 500;
 }
