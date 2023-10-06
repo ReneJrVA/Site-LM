@@ -262,9 +262,14 @@ i:hover {
 
 }
 
-#overMij-container {
+
+
+/* Style for about page: */
+
+#overMij-page {
     width: 100%;
     height: 450px;
+    margin-top: 50px;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -274,7 +279,7 @@ i:hover {
     border-width: 1px;*/
 }
 
-.fotoaboutme {
+.foto-aboutMe {
     width: 500px;
     background-color: #ece5df;
 }
@@ -287,7 +292,7 @@ i:hover {
     background-color: #ece5df;
 }
 
-.titleAboutMe {
+.title-aboutMe {
     color: #000000;
     font-size: 30px;
     font-family: 'Castoro Titling', sans-serif;
@@ -296,7 +301,7 @@ i:hover {
     background-color: #ece5df;
 }
 
-#samenvattingovermij {
+#samenvatting-aboutMe {
     width: 100%;
     height: 100px;
     margin-top: -100px;
@@ -311,4 +316,10 @@ i:hover {
     width: 80%;
     height: 100px;
     background-color: #ece5df;
+}
+
+#footer-aboutMe{
+    position: absolute;
+    bottom: 0;
+    width: 100%;
 }
