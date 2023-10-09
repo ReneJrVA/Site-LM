@@ -271,11 +271,10 @@ i:hover {
     height: 450px;
     margin-top: 50px;
     display: flex;
-    flex-direction: row;
     align-items: center;
     justify-content: center;
     background-color: #ece5df;
-    padding-bottom: 100px;
+    padding-bottom: 50px;
 
     /*border-color: #000000;
     border-style: solid;
@@ -287,9 +286,9 @@ i:hover {
     background-color: #ece5df;
 }
 
-#foto-lele {
+#foto-aboutMe {
     margin-top: 0px;
-    margin-left: 250px;
+    margin-left: 300px;
     width: 100%;
     height: 100%;
     background-color: #ece5df;
@@ -307,8 +306,8 @@ i:hover {
 #samenvatting-aboutMe {
     width: 100%;
     height: 100px;
-    margin-top: -100px;
-    margin-left: 270px;
+    margin-bottom: 100px;
+    margin-left: 350px;
     background-color: #ece5df;
 }
 
@@ -325,23 +324,44 @@ i:hover {
 #aboutMe-socials {
     width: 100%;
     height: 450px;
-    margin-top: 1000px;
     display: flex;
     flex-direction: column;
-    border-color: #000000;
+    justify-content: center;
+    align-items: center;
+    /* border-color: #000000;
     border-style: solid;
-    border-width: 1px;
+    border-width: 1px; */
 
 }
 
-#title-socials {
+.logo-insta{
+    margin-top: 20px;
+    height: 300px;
+    background-color: #BFA893;
+}
+
+.title-socials {
+    height: 3000px;
     color: #000000;
     font-size: 30px;
-
 }
 
-/* #footer-aboutMe {
-    position: fixed;
-    bottom: 0;
+.line-divider{
+    width: 5%;
+    border: #000000;
+    border-style: solid;
+    border-width: 1px;
+    margin-bottom: 15px;
+}
+
+.pageName-instagram{
+    font-size: 20px;
+    height: 20000px;
+    color: #000000;
+}
+
+#footer-aboutMe {
+    /* position: fixed;
+    bottom: 0; */
     width: 100%;
-} */
+}
