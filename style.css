@@ -69,7 +69,7 @@ li:hover {
     display: flex;
     align-items: center;
     justify-content: center;
-    background-color: #ece5df;
+    background-color: #A6907C;
     /*border-color: #000000;
     border-style: solid;
     border-width: 1px;*/
@@ -77,15 +77,15 @@ li:hover {
 
 .fotoaboutme {
     width: 500px;
-    background-color: #ece5df;
+    background-color: #A6907C;
 }
 
 #foto-lele {
-    margin-top: 0px;
+    margin-top: -10px;
     margin-left: 250px;
     width: 100%;
     height: 100%;
-    background-color: #ece5df;
+    background-color: #A6907C;
 }
 
 .titleAboutMe {
@@ -94,7 +94,7 @@ li:hover {
     font-family: 'Castoro Titling', sans-serif;
     font-weight: 400;
     /* margin-bottom: 20px; */
-    background-color: #ece5df;
+    background-color: #A6907C;
 }
 
 .title-part2 {
@@ -104,24 +104,25 @@ li:hover {
     font-weight: 400;
     margin-bottom: 20px;
     margin-top: -5px;
-    background-color: #ece5df;
+    background-color:#A6907C;
 }
 
-#samenvattingovermij {
+#samenvatting-overmij {
     width: 100%;
     height: 100px;
-    margin-top: -100px;
+    margin-top: -200px;
     margin-left: 270px;
-    background-color: #ece5df;
+    background-color: #A6907C;
 }
 
 .tekst {
     color: #000000;
-    font-size: 19px;
+    font-size: 20px;
     font-family: 'Fraunces', sans-serif;
-    width: 50%;
+    width: 60%;
     height: 100px;
-    background-color: #ece5df;
+    padding: 10px;
+    background-color: #A6907C;
 }
 
 .arrow-container {
@@ -137,20 +138,10 @@ li:hover {
     max-height: 20%;
 }
 
-#link-arrow{
-    background-color: #ece5df;
+#link-arrow {
+    background-color: #A6907C;
 }
 
-.title-photoshoot{
-    margin-top: 70px;
-    width: 100%;
-    display: flex;
-    justify-content: center;
-    color: #000000;
-    font-size: 30px;
-    font-family: 'Castoro Titling', sans-serif;
-    font-weight: 400;
-}
 
 #fotoshoot-card-container {
     width: 100%;
@@ -347,7 +338,7 @@ i:hover {
     background-color: #ece5df;
 }
 
-.tekst {
+.tekst-aboutMe {
     color: #000000;
     font-size: 19px;
     font-family: 'Fraunces', sans-serif;
@@ -393,10 +384,10 @@ i:hover {
 .pageName-instagram {
     font-size: 18px;
     height: 20000px;
-    
+
 }
 
-.text-insta{
+.text-insta {
     color: #000000;
 }
 
