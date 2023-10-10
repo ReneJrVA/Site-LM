@@ -95,7 +95,17 @@ li:hover {
     font-size: 30px;
     font-family: 'Castoro Titling', sans-serif;
     font-weight: 400;
+    /* margin-bottom: 20px; */
+    background-color: #ece5df;
+}
+
+.title-part2{
+    color: #000000;
+    font-size: 30px;
+    font-family: 'Castoro Titling', sans-serif;
+    font-weight: 400;
     margin-bottom: 20px;
+    margin-top: -5px;
     background-color: #ece5df;
 }
 
