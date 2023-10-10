@@ -6,7 +6,7 @@
     padding: 0;
     list-style: none;
     text-decoration: none;
-    background-color: #BFA893;
+    background-color: #F2F2F2;
 }
 
 header {
@@ -14,12 +14,12 @@ header {
     display: flex;
     justify-content: space-around;
     align-items: center;
-    background-color: #BFA893;
+    background-color: #F2F2F2;
 }
 
 nav {
     width: 60%;
-    background-color: #BFA893;
+    background-color: #F2F2F2;
 
 }
 
@@ -28,12 +28,12 @@ ul {
     margin-top: 80px;
     width: 100%;
     justify-content: space-between;
-    background-color: #BFA893;
+    background-color: #F2F2F2;
 }
 
 li {
     list-style: none;
-    background-color: #BFA893;
+    background-color: #F2F2F2;
     color: #fff;
     cursor: pointer;
     font-size: 19px;
@@ -52,8 +52,6 @@ li:hover {
     margin-top: -25px;
     margin-left: 20px;
     background: transparent;
-    background-color: #BFA893;
-
 }
 
 #banner {
@@ -67,7 +65,7 @@ li:hover {
 
 #overMij-container {
     width: 100%;
-    height: 450px;
+    height: 600px;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -99,7 +97,7 @@ li:hover {
     background-color: #ece5df;
 }
 
-.title-part2{
+.title-part2 {
     color: #000000;
     font-size: 30px;
     font-family: 'Castoro Titling', sans-serif;
@@ -121,9 +119,37 @@ li:hover {
     color: #000000;
     font-size: 19px;
     font-family: 'Fraunces', sans-serif;
-    width: 80%;
+    width: 50%;
     height: 100px;
     background-color: #ece5df;
+}
+
+.arrow-container {
+    width: 250px;
+    margin-left: 5px;
+    margin-top: 40px;
+    background: none;
+}
+
+#foto-arrow {
+    mix-blend-mode: multiply;
+    max-width: 20%;
+    max-height: 20%;
+}
+
+#link-arrow{
+    background-color: #ece5df;
+}
+
+.title-photoshoot{
+    margin-top: 70px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    color: #000000;
+    font-size: 30px;
+    font-family: 'Castoro Titling', sans-serif;
+    font-weight: 400;
 }
 
 #fotoshoot-card-container {
@@ -174,7 +200,8 @@ li:hover {
     row-gap: 5px;
     column-gap: 40px;
     margin-left: 140px;
-    margin-bottom: 150px;
+    margin-top: -90px;
+    margin-bottom: 70px;
 }
 
 .title-motherhood {
@@ -262,7 +289,6 @@ i {
 
 i:hover {
     color: #736151;
-    background-color: #d9c5b4;
 }
 
 .copyrigth {
@@ -344,7 +370,7 @@ i:hover {
 
 }
 
-.logo-insta{
+.logo-insta {
     margin-top: 20px;
     height: 300px;
     background-color: #BFA893;
@@ -356,7 +382,7 @@ i:hover {
     font-size: 30px;
 }
 
-.line-divider{
+.line-divider {
     width: 5%;
     border: #000000;
     border-style: solid;
@@ -364,9 +390,13 @@ i:hover {
     margin-bottom: 15px;
 }
 
-.pageName-instagram{
-    font-size: 20px;
+.pageName-instagram {
+    font-size: 18px;
     height: 20000px;
+    
+}
+
+.text-insta{
     color: #000000;
 }
 
