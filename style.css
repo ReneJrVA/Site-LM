@@ -414,3 +414,25 @@ i:hover {
     bottom: 0; */
     width: 100%;
 }
+/* End About Me page */
+
+
+
+/* Contact page style */
+
+.first-container{
+    margin-top: 50px;
+    width: 100%;
+    height: 500px;
+    background-color: #A6907C;
+    border: #000000;
+
+}
+
+
+.contact{
+    width: 100%;
+    height: 800px;
+    display: flex;
+    flex-direction: column;
+}
