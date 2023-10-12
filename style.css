@@ -433,7 +433,7 @@ i:hover {
 
 .contact {
     margin-left: 300px;
-    width: 800px;
+    width: 900px;
     height: 800px;
     border: #000000;
     border-style: solid;
@@ -456,8 +456,9 @@ i:hover {
     margin-top: 5px;
 }
 
-#what-type {
+#what-type-title {
     margin-bottom: 20px;
+    background-color: #A6907C;
 }
 
 #rad1 {
@@ -476,6 +477,22 @@ i:hover {
     margin-bottom: 20px;
 }
 
+#wedding-label {
+    background-color: #A6907C;
+}
+
+#family-label {
+    background-color: #A6907C;
+}
+
+#motherhood-label {
+    background-color: #A6907C;
+}
+
+#portrait-label {
+    background-color: #A6907C;
+}
+
 
 #radio {
     background-color: #F2E8DF;
@@ -483,4 +500,9 @@ i:hover {
 
 #message {
     background-color: #D9C5B4;
+    margin-top: 20px;
+}
+
+#message-title {
+    background-color: #A6907C;
 }
