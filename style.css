@@ -104,7 +104,7 @@ li:hover {
     font-weight: 400;
     margin-bottom: 20px;
     margin-top: -5px;
-    background-color:#A6907C;
+    background-color: #A6907C;
 }
 
 #samenvatting-overmij {
@@ -389,7 +389,7 @@ i:hover {
 
 }
 
-.fotos-instagram{
+.fotos-instagram {
     width: 100%;
     height: auto;
     display: flex;
@@ -399,7 +399,7 @@ i:hover {
     margin-bottom: 20px;
 }
 
-.instagram-media{
+.instagram-media {
     width: 100px;
     height: 480px;
 }
@@ -414,13 +414,14 @@ i:hover {
     bottom: 0; */
     width: 100%;
 }
+
 /* End About Me page */
 
 
 
 /* Contact page style */
 
-.first-container{
+.first-container {
     margin-top: 50px;
     width: 100%;
     height: 500px;
@@ -430,26 +431,24 @@ i:hover {
 }
 
 
-.contact{
+.contact {
     margin-left: 300px;
     width: 800px;
     height: 800px;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items:start;
     border: #000000;
     border-style: solid;
     background-color: #A6907C;
 }
-#name{
+
+#name {
     width: 400px;
     height: 40px;
     background-color: #F2E8DF;
     margin-top: 5px;
     margin-bottom: 20px;
 }
-#email{
+
+#email {
     width: 400px;
     height: 40px;
     background-color: #F2E8DF;
@@ -457,14 +456,31 @@ i:hover {
     margin-top: 5px;
 }
 
-#what-type{
+#what-type {
     margin-bottom: 20px;
 }
 
-#radio{
+#rad1 {
+    margin-bottom: 20px;
+}
+
+#rad2 {
+    margin-bottom: 20px;
+}
+
+#rad3 {
+    margin-bottom: 20px;
+}
+
+#rad4 {
+    margin-bottom: 20px;
+}
+
+
+#radio {
     background-color: #F2E8DF;
 }
 
-#message{
+#message {
     background-color: #D9C5B4;
 }

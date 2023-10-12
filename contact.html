@@ -38,27 +38,25 @@
 
     <div class="contact-container">
         <form action="./contact.html" class="contact">
-            <label for="Name" style="background-color: #F2E8DF;">YOUR NAME*</label>
-            <input type="text" name="voornaam" id="name" placeholder="">
+            <label for="Name" style="background-color: #F2E8DF;">YOUR NAME*</label><br>
+            <input type="text" name="voornaam" id="name" placeholder=""><br>
 
-            <label for="email" style="background-color: #F2E8DF;">EMAIL ADRESS*</label>
+            <label for="email" style="background-color: #F2E8DF;">EMAIL ADRESS*</label><br>
             <input type="text" name="email" id="email" placeholder="">
 
-            <label for="what-photoshoot" id="what-type">WHAT TYPE OF SESSION ARE YOU LOOKING FOR?
-            </label>
+            <p id="what-type">WHAT TYPE OF SESSION ARE YOU LOOKING FOR?</p>
 
-            <input type="radio" name="wedding" id="wedding" value="wedding">
-            <label for="wedding" id="wedding-label">Wedding</label>
-            
-            <label for="radio" id="motherhood">Motherhood</label>
-            <input type="radio" name="What-shoot" id="radio" value="Motherhood">
+            <input type="radio" name="wedding" id="rad1" value="wedding" checked>
+            <label for="rad1">Wedding</label><br>
 
-            
-            <input type="radio" name="What-shoot" id="radio" value="Family">
-            <label for="radio" id="family">Family</label>
+            <input type="radio" name="family" id="rad2" value="family" checked>
+            <label for="rad2">Family</label><br>
 
-            <label for="radio" id="portrait">Portrait</label>
-            <input type="radio" name="What-shoot" id="radio" value="Portrait">
+            <input type="radio" name="motherhood" id="rad3" value="motherhood" checked>
+            <label for="rad3">Motherhood</label><br>
+
+            <input type="radio" name="portrait" id="rad4" value="portrait" checked>
+            <label for="rad4">Portrait</label><br>
 
             <!-- <label for=""></label>
             <select name="land" id="land">
@@ -66,11 +64,9 @@
                 <option value="nederland">Nederland</option>
             </select> -->
 
-            <label for="message">MESSAGE*</label>
+            <label for="message">MESSAGE*</label><br>
             <textarea name="message" id="message" placeholder="Type your message..." style="height: 150px; 
-            width: 400px ;">
-            
-            </textarea>
+            width: 400px ;"></textarea><br>
             <button id="verzenden">Verzenden</button>
         </form>
     </div>
