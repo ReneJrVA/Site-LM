@@ -431,8 +431,40 @@ i:hover {
 
 
 .contact{
-    width: 100%;
+    margin-left: 300px;
+    width: 800px;
     height: 800px;
     display: flex;
     flex-direction: column;
+    justify-content: center;
+    align-items:start;
+    border: #000000;
+    border-style: solid;
+    background-color: #A6907C;
+}
+#name{
+    width: 400px;
+    height: 40px;
+    background-color: #F2E8DF;
+    margin-top: 5px;
+    margin-bottom: 20px;
+}
+#email{
+    width: 400px;
+    height: 40px;
+    background-color: #F2E8DF;
+    margin-bottom: 20px;
+    margin-top: 5px;
+}
+
+#what-type{
+    margin-bottom: 20px;
+}
+
+#radio{
+    background-color: #F2E8DF;
+}
+
+#message{
+    background-color: #D9C5B4;
 }
