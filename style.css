@@ -425,50 +425,64 @@ i:hover {
     margin-top: 50px;
     width: 100%;
     height: 100%;
-    border: #000000;
-    border-style: solid;
 }
 
 .contact {
     width: 100%;
-    height: 1000px;
-    background-color: rgba(166, 144, 124, 0.7);
+    height: 100%;
+    position: 50%;
+    /* background-image: url('https://lh3.googleusercontent.com/pw/ADCreHfb-QW6zRef4gyVbJcLfk8vuxeAr95MHcDCeOaNN90z8OugP94T00VtQBf7pyciLczMZSG-VIYo2ErcvMuq4JOBesGHL_zqkoWM2yE8WLkl-4hoZG2WrUaGMkKvTorXx5L_PhJLtKv6gD3xND1D43G3npIL6UuLqAiaRiCtZy9Y7CbamALtIpcozVA3_fUdpsdM2IoNj9jXWbMhfN9kgR6YbpiOuTweLLUamx_Uuf9Et4yMaJnMaoaQ81r16hvJrGJOUh5ll9cPuNFFplfNxA_vUJumYC6fo7llzoq3rGklldBlIQ7kFkx6I7KTLpW5zU4vrQo-y3rdIzFnFzbXdt6tJ-AFL6I6TMTVWhhC2J0vXTaqpYKdmcXOUrCWfcxTFDmBKncNO1SmIBrzy_tiSG5Lsx46VewnHWaqw17kRCHzPv5ItP1JpvcvDS-BlmmtoaIdgjzuoHB8wy9x0PpBXdbw52CfAGGVlJMe4czUHGiETSCWTgO-e5Yi3aeSK6ZlpZtdXVJLuuuqSQidg9YAnWe4GFzdPsThj9-pnWsRBIH2Rym8TcsZgGeIBbM84NNn8FjxWbtdKCtmFE4_QwTntFl82jWQP1X57Fo8sdjy-aG2T0ZDgZl4iRSpS_hH7NI0KYhaO63YDTpJKdp4oYV_zR0WZppkdEGvpNcXjYdBzjRmR--ifyMR0x6w85sRfEhdKj9no-J3VDM4BP6VgJmTCRVBulHZ8_MM8HXrA9JRYJsC8Phi6D2vJbOfu8PWVxm03MYSH7y0JtGS3SohAIZrOI--r5XyGAc_OZPlZ0ll1ERpdBghUEU9ZJYrZ9eAzgQ_JcAa_pfnr2xwn7hxcQ1BWlVu6sQEs3s3OtUNYsy3kqbr4VptBRo8f9MdR2cIN_JLqQKbuC2rT2b5esFlKFzUS4oEkw_gWhZ9vOuj2ICyQe5lJ3Tju9QePhsWKBETttKbIF3MdgIlUg1CmLFTBPLx2sXv-dfMkLj74A=w1397-h931-s-no?authuser=2');
+    background-size: cover; */
+    background-color: rgba(166, 144, 124, 0.95);
 }
 
 #name {
+    margin-left: 720px;
     width: 400px;
     height: 40px;
     background-color: #F2E8DF;
     margin-top: 5px;
     margin-bottom: 20px;
+    font-family: 'Fraunces', sans-serif;
+    font-weight: 100;
+    font-size: 20px;
 }
 
 #email {
     width: 400px;
     height: 40px;
     background-color: #F2E8DF;
+    margin-left: 720px;
     margin-bottom: 20px;
     margin-top: 5px;
+    font-family: 'Fraunces', sans-serif;
+    font-size: 20px;
+    color: #000000;
 }
 
 #what-type-title {
     margin-bottom: 20px;
+    width: 400px;
     background-color: #A6907C;
 }
 
 #rad1 {
+    margin-left: 720px;
     margin-bottom: 20px;
 }
 
 #rad2 {
+    margin-left: 720px;
     margin-bottom: 20px;
 }
 
 #rad3 {
+    margin-left: 720px;
     margin-bottom: 20px;
 }
 
 #rad4 {
+    margin-left: 720px;
     margin-bottom: 20px;
 }
 
@@ -494,10 +508,14 @@ i:hover {
 }
 
 #message {
+    margin-left: 720px;
     background-color: #D9C5B4;
     margin-top: 20px;
+    font-family: 'Fraunces', sans-serif;
+    font-size: 20px;
 }
 
 #message-title {
+    margin-left: 720px;
     background-color: #A6907C;
 }
