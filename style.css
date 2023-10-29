@@ -532,7 +532,7 @@ i:hover {
 
 /* PRICE LIST PAGE */
 
-.line-startpage{
+.line-startpage {
     margin-top: 50px;
     height: 1px;
     width: 100%;
@@ -543,7 +543,7 @@ i:hover {
     margin-bottom: 60px;
 }
 
-.pre-options-container{
+.pre-options-container {
     width: 100%;
     height: 500px;
     display: flex;
@@ -551,12 +551,12 @@ i:hover {
     margin-bottom: 100px;
 }
 
-.foto-pre{
+.foto-pre {
     width: 500px;
     height: 100px;
 }
 
-#img-pre{
+#img-pre {
     margin-left: 300px;
     height: 500px;
     width: auto;
@@ -564,7 +564,7 @@ i:hover {
 
 }
 
-.title-pre{
+.title-pre {
     margin-left: 700px;
     width: 600px;
     font-family: 'Castoro Titling', sans-serif;
@@ -572,7 +572,7 @@ i:hover {
     margin-bottom: 10px;
 }
 
-.tekst-pre{
+.tekst-pre {
     margin-top: 20px;
     margin-left: 700px;
     width: 700px;
@@ -580,5 +580,3 @@ i:hover {
     font-size: 20px;
 
 }
-
-
