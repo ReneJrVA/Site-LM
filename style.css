@@ -628,5 +628,14 @@ i:hover {
     font-size: 18px;
 }
 
-/* .foto-pMotherhood{} */
 
+.foto-pMotherhood{
+    width: 300px;
+    height: 500px;
+}
+
+
+#img-pMotherhood{
+    width: auto;
+    height: 500px;
+}
